@@ -96,6 +96,15 @@ The definitive guide to developing with ${Page.micronaut()} is the [User Guide](
             new Question(slug: 'question_grails',title: "How does ${Page.micronaut()} relate to Grails/Spring Boot?", answer: """
 The inventors of the [Grails framework](http://grails.org) are developing the ${Page.micronaut()} project, taking many of the lessons learned from Grails into account when designing the new framework. Unlike Grails and other JVM web frameworks, ${Page.micronaut()} is designed to function as both a client and a server framework in a microservice environment. ${Page.micronaut()}'s modularity and lack of external dependencies means that Grails developers can take advantage of many key ${Page.micronaut()} features within their existing Grails applications.
 """),
+            new Question(slug: 'question_microprofile',title: "How does ${Page.micronaut()} relate to MicroProfile and its implementations such as Quarkus and Helidon?", answer: """
+
+"""),            
+            new Question(slug: 'question_microprofile',title: "How does ${Page.micronaut()} relate to JAX-RS?", answer: """
+
+"""),            
+            new Question(slug: 'question_microprofile',title: "What is the governance model for the development of ${Page.micronaut()}?", answer: """
+
+"""),            
             //TODO  Grails integration is a priority of the ${Page.micronaut()} developers, so please stay tuned to the [Micronaut Guides](http://guides.micronaut.io) for future information.
 //TODO:- check out [the Grails/Micronaut guide](http://grails.org) to learn more.
 
